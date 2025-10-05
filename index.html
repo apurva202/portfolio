@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio 1</title>
+    <link rel="stylesheet" href="./style1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="container nav-content">
+            <div class="logo">Apurva</div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Hi, I am <span class="highlight">Apurva Patil</span></h1>
+                <p>Crafting interactive websites | Exploring Python & AI | Turning ideas into code</p>
+                <a class="download-resume" href="./Mock_Resume.pdf" target="_blank">Resume <i class="fas fa-download"></i></a>
+            </div>
+            <div class="hero-image">
+                <img src="./photo.png" alt="Apurva Patil" />
+            </div>
+        </div>
+        <div class="background_decoration">
+            <div class="smallparticles" id="sp1"></div>
+            <div class="smallparticles" id="sp2"></div>
+            <div class="smallparticles" id="sp3"></div>
+            <div class="smallparticles" id="sp4"></div>
+            <div class="mediumparticles" id="mp1"></div>
+            <div class="mediumparticles" id="mp2"></div>
+            <div class="mediumparticles" id="mp3"></div>
+            <div class="mediumparticles" id="mp4"></div>
+            <div class="largeparticles" id="lp1"></div>
+            <div class="largeparticles" id="lp2"></div>
+        </div>
+    </section>
+
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                Hi, I’m <strong>Apurva Patil</strong>, a passionate learner and developer with a strong
+                interest
+                in <strong>web development</strong>, <strong>Python programming</strong>, and <strong>artificial
+                    intelligence</strong>.
+                I love experimenting with new ideas and turning concepts into interactive digital experiences.
+            </p>
+            <p>
+                My journey in tech started with curiosity about how websites and applications are built. Over time, I’ve
+                gained
+                experience in creating responsive designs, writing clean code, and exploring modern frameworks and
+                libraries.
+                I believe in building projects that are both functional and visually appealing.
+            </p>
+            <p>
+                Beyond coding, I enjoy learning about problem-solving approaches, creative design, and innovative tools
+                that
+                help push my skills further. My goal is to grow into a versatile developer who can contribute to
+                impactful
+                projects and bring ideas to life.
+            </p>
+
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="./jarvis.png" alt="Jarvis Project Screenshot" class="project-img">
+                    <h3>Jarvis Voice Assistant</h3>
+                    <p>Python-based assistant that responds to voice commands, plays YouTube videos, tells the time,
+                        searches Wikipedia, and more.</p>
+                </div>
+                <div class="project-card">
+                    <img src="./IPL.png" alt="IPL Database Project" class="project-img">
+                    <h3>IPL Database Management System</h3>
+                    <p>Python + CSV | Terminal-based project</p>
+                    <p>Implemented CRUD operations and visualized IPL stats like runs and averages using charts.</p>
+                </div>
+                <div class="project-card">
+                    <img src="./gesture.png" alt="AI Gesture Controller" class="project-img">
+                    <h3>AI Gesture Controller</h3>
+                    <p>Python + OpenCV | Controls a game using hand gestures.</p>
+                    <p>Tracks hand movements in real-time to perform actions like jump, slide, and move left/right in a
+                        demo game environment.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+    <div id="skills-content">
+        <div id="skills-text">
+            <h2 id="skills-title">Skills & Technologies</h2>
+            <p id="skills-subtitle">My Technical Arsenal</p>
+            <p id="skills-description">
+                I'm constantly expanding my skillset through hands-on projects and learning.
+                From web development to problem-solving with DSA, I enjoy exploring different
+                aspects of programming and technology.
+            </p>
+
+            <div id="skills-list">
+                <div id="skill-category">
+                    <strong>Programming:</strong> HTML, CSS, JavaScript, C++, Java
+                </div>
+                <div id="skill-category">
+                    <strong>Tools:</strong> Git, GitHub, VS Code, Game Development
+                </div>
+                <div id="skill-category">
+                    <strong>Academic Clubs:</strong> AI/ML Club (Member), CP Club (Member)
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <div class="form">
+                <form>
+                    <input type="text" placeholder="Your Name">
+                    <input type="email" placeholder="Your Email">
+                    <textarea placeholder="Your Message"></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="site-footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/apurva202" target="_blank"><img src="./github.png" alt="GitHub"></a>
+                <a href="https://www.linkedin.com/in/apurva-patil-424b04371/" target="_blank"><img src="./linkedin.png" alt="LinkedIn"></a>
+                <a href="https://codeforces.com/profile/apurvapatil22a" target="_blank"><img src="./codeforces.png" alt="Codeforces"></a>
+            </div>
+            <p>&copy; 2025 Apurva Patil</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
